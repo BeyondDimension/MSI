@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net472</TargetFramework>
+		<UseWPF>true</UseWPF>
+		<RootNamespace>MSI</RootNamespace>
+		<AssemblyName>Steam++.Setup</AssemblyName>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Using Include="System.Configuration" />
+		<Using Include="System.Data" />
+		<Using Include="System.Text" />
+		<Using Include="System.Windows" />
+		<Using Include="System.Windows.Controls" />
+		<Using Include="System.Windows.Data" />
+		<Using Include="System.Windows.Documents" />
+		<Using Include="System.Windows.Input" />
+		<Using Include="System.Windows.Media" />
+		<Using Include="System.Windows.Media.Imaging" />
+		<Using Include="System.Windows.Navigation" />
+		<Using Include="System.Windows.Shapes" />
+	</ItemGroup>
+
+</Project>

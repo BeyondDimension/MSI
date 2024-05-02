@@ -1,0 +1,7 @@
+<Project>
+	<!-- 版本号 | Version -->
+	<PropertyGroup>
+		<!--1.yy.1MMdd.1hhmm-->
+		<Version_MSI>1.24.10502.11136</Version_MSI>
+	</PropertyGroup>
+</Project>

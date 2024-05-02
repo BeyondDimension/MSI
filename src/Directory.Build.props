@@ -1,0 +1,21 @@
+<Project>
+	<Import Project="..\ref\Common\src\Sdk\Global.props" />
+	<Import Project="$(MSBuildThisFileDirectory)Version.props" />
+
+	<PropertyGroup>
+		<Version>$(Version_MSI)</Version>
+		<Path_Submodule>$(MSBuildThisFileDirectory)..\ref\</Path_Submodule>
+		<Reference_Bcl_Type>PackageReference</Reference_Bcl_Type>
+		<!--<Reference_Bcl_Type>LinkReference</Reference_Bcl_Type>-->
+	</PropertyGroup>
+
+	<!--<PropertyGroup Condition="Exists('$(MSBuildThisFileDirectory)..\..\..\.gitmodules') AND Exists('$(MSBuildThisFileDirectory)..\..\Common\README.md')">
+		<Path_Submodule>$(MSBuildThisFileDirectory)..\..\</Path_Submodule>
+	</PropertyGroup>-->
+
+	<!-- Avalonia -->
+	<PropertyGroup>
+		<AvaloniaUseCompiledBindingsByDefault>true</AvaloniaUseCompiledBindingsByDefault>
+	</PropertyGroup>
+
+</Project>
